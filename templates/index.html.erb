@@ -1,0 +1,8 @@
+<h1>This is my web server deployed with chef</h1>
+                <h2>Server Details</h2>
+                <h3>HOSTNAME: <%= node['hostname'] %></h3>
+                <h3>IPADDRESS:<%= node['ipaddress']%></h3>
+                <h3>Total Memory:<%= node['memory']['total']%></h3>
+                <h3>CPU: <%= node['cpu']['0']['mhz']%></h3>
+                <h3>Name: <%= @name %> </h3>
+                <img src="my.png">
